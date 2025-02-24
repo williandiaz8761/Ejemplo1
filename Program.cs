@@ -17,6 +17,7 @@ namespace Ejemplo1
 
             foreach (IVehiculo v in vehiculos) {             
                 v.conducir();
+                Console.WriteLine(" voy rodando en " + v.numeroRuedas() + " Ruedas ");
             }
         }
     }
