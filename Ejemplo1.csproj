@@ -46,8 +46,11 @@
     <Compile Include="Carro.cs" />
     <Compile Include="Color.cs" />
     <Compile Include="ColorEstructura.cs" />
+    <Compile Include="IAnimal.cs" />
+    <Compile Include="IMamifero.cs" />
     <Compile Include="IVehiculo.cs" />
     <Compile Include="Moto.cs" />
+    <Compile Include="Perro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VehiculoAbstract.cs" />

@@ -23,6 +23,10 @@ namespace Ejemplo1
                     Console.WriteLine("es una moto de color " + moto.getColor() +" y una estructura color "+moto.ColorConCodigo.Nombre+" codigo "+moto.ColorConCodigo.CodigoHex);
                 }
             }
+
+            Perro perro = new Perro();
+            perro.HacerSonido(); 
+            perro.Amamantar();
         }
     }
 }
