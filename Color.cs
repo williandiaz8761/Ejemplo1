@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Ejemplo1
 {
-    public interface IVehiculo
+    public enum Color
     {
-        void conducir();
-        int numeroRuedas();
+        RRojo,
+        Verde,
+        Azul,
+        Amarillo,
+        Negro,
+        Blanco
     }
 }

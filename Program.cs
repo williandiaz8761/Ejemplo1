@@ -13,11 +13,15 @@ namespace Ejemplo1
         {
             IVehiculo[] vehiculos = new IVehiculo[2];
             vehiculos[0] = new Carro();
-            vehiculos[1] = new Moto();
+            vehiculos[1] = new Moto(Color.Negro);
 
             foreach (IVehiculo v in vehiculos) {             
                 v.conducir();
                 Console.WriteLine(" voy rodando en " + v.numeroRuedas() + " Ruedas ");
+                if (v is Moto) { 
+                    Moto moto = v as Moto;
+                    Console.WriteLine("es una moto de color " + moto.getColor() +" y una estructura color "+moto.ColorConCodigo.Nombre+" codigo "+moto.ColorConCodigo.CodigoHex);
+                }
             }
         }
     }

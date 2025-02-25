@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejemplo1
 {
-    internal class Carro : IVehiculo
+    public class Carro : IVehiculo
     {
         private int ruedas { get; set; }
         void IVehiculo.conducir()
