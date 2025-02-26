@@ -13,6 +13,8 @@ namespace Ejemplo1
         Azul,
         Amarillo,
         Negro,
-        Blanco
+        Blanco,
+        Megenta,
+        Naranja
     }
 }
