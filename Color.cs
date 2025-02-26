@@ -8,7 +8,7 @@ namespace Ejemplo1
 {
     public enum Color
     {
-        RRojo,
+        Rojo,
         Verde,
         Azul,
         Amarillo,
