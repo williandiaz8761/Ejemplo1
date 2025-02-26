@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ejemplo1
 {
-    public interface IVehiculo
+    public interface IAnimal
     {
-        void conducir();
-        int numeroRuedas();
+        void HacerSonido();
     }
 }

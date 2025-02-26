@@ -7,20 +7,32 @@ using System.Threading.Tasks;
 namespace Ejemplo1
 {
     
-    internal class Moto : IVehiculo
+    public class Moto : VehiculoAbstract
     {
-        int ruedas =  2;
+        private int ruedas =  2;
+        private Color color;
 
         public int Ruedas { get => ruedas; set => ruedas = value; }
-
-        void IVehiculo.conducir()
-        {
-            Console.WriteLine("en pura en la motico");
+        public Color Color { get => color; set => color = value; }
+        public Moto(Color color) {
+            this.color = color;
+            this.ColorConCodigo = ColorEstructura.Blanco;
         }
 
-        int IVehiculo.numeroRuedas()
+        public override void conducir()
         {
-           return ruedas;
+            Console.WriteLine("En prura en la motico ");
         }
+
+        public override Color getColor()
+        {
+            return Color;
+        }
+
+        public override int numeroRuedas()
+        {
+            return Ruedas;
+        }
+       
     }
 }
