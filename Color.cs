@@ -16,6 +16,7 @@ namespace Ejemplo1
         Blanco,
         Megenta,
         Naranja,
-        Morado
+        Morado,
+        Gris
     }
 }
