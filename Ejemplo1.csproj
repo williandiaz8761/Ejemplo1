@@ -49,6 +49,7 @@
     <Compile Include="IAnimal.cs" />
     <Compile Include="IMamifero.cs" />
     <Compile Include="IVehiculo.cs" />
+    <Compile Include="MiExcepcionPersonalizada.cs" />
     <Compile Include="Moto.cs" />
     <Compile Include="Perro.cs" />
     <Compile Include="Program.cs" />
